@@ -22,8 +22,22 @@ console.log(`my name is ${name2}`);//value of name2 variable is not changed
 console.log(name2.charAt(2));
 console.log(name2.indexOf('v'));
 
-let newName = name2.substring(0,2)
-console.log(newName)
+console.log(name2.slice(1,5));
+
+
+
+const playerName = '      Rohit      '
+console.log(playerName.trim());
+
+let boardName = 'BCCI//Indian//circket//board'
+console.log(boardName.replaceAll('//',' '))//replace is also there for one time operation
+console.log(boardName.includes('Indian'));
+console.log(boardName.includes('Hyderabad'));
+
+//Converting into an array on some basis
+console.log(boardName.split('//'));
+
+
 
 
 
