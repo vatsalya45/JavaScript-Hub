@@ -79,6 +79,23 @@ console.log(Object.entries(tinderUser));    //-->  it will return an array of ke
 
 console.log(tinderUser.hasOwnProperty('userName')); //false
 
+//Destructuring
 
 
+console.log("**************************Destructuring******************************");
+
+const course = {
+
+    courseName: "JavaScript",
+    coursePrice: "999",
+    courseDuration: "15 Days"
+
+}
+
+
+console.log(course.courseName)      // it is long and repeatative way
+
+const {courseName: n}  = course //De-structuring of object and giving small name to the key
+
+console.log(n);
 
